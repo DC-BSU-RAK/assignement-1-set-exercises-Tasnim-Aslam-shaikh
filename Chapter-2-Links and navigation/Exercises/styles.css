@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #8B0000; /* Dark red */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FFD700; /* Gold hover effect */
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Section Headers */
+h1, h2, h3 {
+    color: #FFD700; /* Gold */
+}
+
+h1 {
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 0.5rem;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: #8B0000;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #A52A2A; /* Lighter red on hover */
+}
+
+/* Blockquote Styling (for reviews) */
+blockquote {
+    border-left: 3px solid #FFD700;
+    padding-left: 1rem;
+    font-style: italic;
+}
