@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Beauty: A Visual Journey</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c6e49;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        /* CSS Filters for Images */
+        .image1 {
+            filter: sepia(50%) brightness(110%);
+        }
+
+        .image2 {
+            filter: contrast(120%) saturate(150%);
+        }
+
+        .image3 {
+            filter: grayscale(30%) blur(1px);
+        }
+
+        /* License Styling */
+        .license {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nature's Beauty: A Visual Journey</h1>
+    
+    <div class="image-gallery">
+        <!-- Image 1: Mountain Landscape -->
+        <div class="image-card">
+            <img 
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Snowy mountain peaks under a blue sky" 
+                width="300" 
+                height="200" 
+                class="image1"
+                title="Majestic Mountain Range"
+            >
+            <p>A breathtaking view of snowy mountains.</p>
+            <div class="license">
+                <strong>License:</strong> <a href="https://unsplash.com/license" target="_blank">Unsplash (Free for commercial use)</a>
+            </div>
+        </div>
+
+        <!-- Image 2: Forest Path -->
+        <div class="image-card">
+            <img 
+                src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Sunlit forest path with tall trees" 
+                width="300" 
+                height="200" 
+                class="image2"
+                title="Enchanted Forest Walk"
+            >
+            <p>A serene pathway through a dense forest.</p>
+            <div class="license">
+                <strong>License:</strong> <a href="https://unsplash.com/license" target="_blank">Unsplash (Free for commercial use)</a>
+            </div>
+        </div>
+
+        <!-- Image 3: Ocean Waves -->
+        <div class="image-card">
+            <img 
+                src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Ocean waves crashing on a rocky shore" 
+                width="300" 
+                height="200" 
+                class="image3"
+                title="Powerful Ocean Waves"
+            >
+            <p>Dramatic waves hitting the coastline.</p>
+            <div class="license">
+                <strong>License:</strong> <a href="https://unsplash.com/license" target="_blank">Unsplash (Free for commercial use)</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
