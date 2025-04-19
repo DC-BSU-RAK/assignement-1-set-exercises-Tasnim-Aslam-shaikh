@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video Example</title>
+    <style>
+        /* Reset default margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Center the video container both horizontally and vertically */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            background-color: #f0f0f0;
+        }
+        
+        /* Style the video element */
+        video {
+            max-width: 800px; /* Maximum width */
+            width: 90%; /* Responsive width */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            display: block; /* Ensures proper centering */
+        }
+        
+        /* Info text styling */
+        .info {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <div>
+            <!-- Video element with all required attributes -->
+            <video 
+                controls 
+                autoplay 
+                muted 
+                loop
+                poster="poster.jpg"  <!-- Make sure this file exists in your directory -->
+                title="Web Development Tutorial">
+                
+                <!-- Video sources (replace with your actual video files) -->
+                <source src="Loop_Background_Live_Wallpaper_Chilling_Cat_No_Sound.mp4" type="video/mp4">
+                <!-- Removed space from filename and replaced with underscores -->
+                
+                <!-- Fallback text if video isn't supported -->
+                Your browser does not support the video tag.
+            </video>
+            
+            <div class="info">
+                <p>Web Development Tutorial (looping demo)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
